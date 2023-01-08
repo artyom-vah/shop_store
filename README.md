@@ -3,7 +3,7 @@
 
 # **store**
 ### **Описание**
-Интернет-магазин**Учебный проект**.
+Интернет-магазин **Учебный проект**.
 
 Интернет-магазин с авторизацией, регистрацией, корзиной.
 
@@ -12,12 +12,10 @@
 ![asgiref version](https://img.shields.io/badge/asgiref-3.6.0-green)
 ![asttokens version](https://img.shields.io/badge/asttokens-2.2.1-green)
 ![backcall version](https://img.shields.io/badge/backcall-0.2.0-green)
-![backports.shutil-get-terminal-size version](https://img.shields.io/badge/backports.shutil-get-terminal-size-1.0.0-green)
 ![colorama version](https://img.shields.io/badge/colorama-0.4.6-green)
 ![decorator version](https://img.shields.io/badge/decorator-5.1.1-green)
 ![django version](https://img.shields.io/badge/Django-4.1.5-green)
 ![django-debug-toolbar version](https://img.shields.io/badge/asgiref-3.2.4-green)
-![django-extensions version](https://img.shields.io/badge/django-extensions-3.2.1-green)
 ![executing version](https://img.shields.io/badge/executing-1.2.0-green)
 ![jedi version](https://img.shields.io/badge/jedi-0.18.2-green)
 ![pillow version](https://img.shields.io/badge/Pillow-9.3.0-green)
@@ -84,5 +82,5 @@ python manage.py runserver
 * ```/``` - Отображение основной страницы (_начать покупки и выбор каталога товаров_);
 * ```products/``` - Отображение каталога товаров (_цен, описания, добавления в корзину_);
 * ```products/{id}``` - Получение, определенного товара из категории (_одежда, рюкзаки, головные уборы и тд_);
-* ```products/page/{id}`` - Получение, определенного товара из категории (_пагинация_);
+* ```products/page/{id}```- Получение, определенного товара из категории (_пагинация_);
 
