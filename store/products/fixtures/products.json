@@ -1,0 +1,80 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name_product": "���� ������� ����� � ������������ adidas Originals",
+      "image": "products_images/Adidas-hoodie_wP3FmSn_pBiTJTs_01wiYWF.png",
+      "description_product": "������ ����� ��� ���������.",
+      "short_description": "����� � ������� � ��� ����� �����.",
+      "price": "6090.00",
+      "quantity": 9,
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name_product": "����� ������ The North Face",
+      "image": "products_images/Blue-jacket-The-North-Face_FwAWkBL_gyXVmWb.png",
+      "description_product": "������� �����. ����������������� ��������.",
+      "short_description": "������ � ������ ������� �����������.",
+      "price": "23725.00",
+      "quantity": 15,
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name_product": "���������� ���������� oversized-��� ASOS DESIGN",
+      "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN_LLHqTdx_wxBjBdE.png",
+      "description_product": "�������� � �������� ���������.",
+      "short_description": "������� � ������.",
+      "price": "3390.00",
+      "quantity": 10,
+      "category": 5
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name_product": "������ ������ Nike Heritage",
+      "image": "products_images/Black-Nike-Heritage-backpack_Jlore3p_e6QFQ3i.png",
+      "description_product": "������� �����.",
+      "short_description": "������ ��������.",
+      "price": "2340.00",
+      "quantity": 35,
+      "category": 2
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name_product": "������ ����� �� ��������� � 3 ������ �������� Dr Martens 1461 Bex",
+      "image": "products_images/Black-Dr-Martens-shoes_manKYhz_BepwRgu.png",
+      "description_product": "������� ������� ����.",
+      "short_description": "����������� ��������.",
+      "price": "13590.00",
+      "quantity": 24,
+      "category": 1
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name_product": "�����-����� ������� ������� ����� ASOS DESIGN",
+      "image": "products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers_HqcMA2s_auLSUuH.png",
+      "description_product": "������ ���������� ����� ��������.",
+      "short_description": "��������� �����.",
+      "price": "2890.00",
+      "quantity": 14,
+      "category": 5
+    }
+  }
+]

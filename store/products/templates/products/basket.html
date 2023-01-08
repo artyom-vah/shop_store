@@ -1,0 +1,42 @@
+{% if baskets %}
+<div class="col-lg-5">
+    <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+        Корзина <span class="badge badge-secondary badge-pill">{{ total_quantity }}</span>
+    </h4>
+    {% for basket in baskets %}
+        <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{{ basket.product.name_product }}</h5>
+            <p class="card-text">{{ basket.product.short_description }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between lh-condensed bg-light">
+                <span class="text-muted"> {{ basket.quantity_in_basket }}</span>
+                <span class="text-muted"> {{ basket.sum }}</span>
+                <span class="text-muted">
+                    <a href="{% url 'products:basket_add' basket.product.id %}" style="text-decoration: none; color: gray;">
+                        <i class="fas fa-cart-plus"></i>
+                    </a>
+                    <a href="{% url 'products:basket_delete' basket.id %}" style="text-decoration: none; color: gray;">
+                        <i class="far fa-trash-alt"></i>
+                    </a>
+                </span>
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+
+
+    <div class="card mb-3">
+        <div class="card-footer">
+            <p class="float-left">Итого: </p>
+            <h4 class="float-right">{{ total_sum }}.</h4>
+        </div>
+    </div>
+    <button type="button" class="btn btn-success btn-lg float-right">Оформить</button>
+</div>
+{% else %}
+    <h4 class="mt-3 mb-3 text-center">
+        Корзина пуста
+    </h4>
+{% endif %}
